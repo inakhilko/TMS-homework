@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
+
+html {
+    font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  background: #fff;
+}
+
+.heading {
+  padding: 54px;
+  color: #000;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.separator {
+  margin: 0 auto;
+  width: 170px;
+  height: 1px;
+
+  background: #ec7979;
+}
+
+.description {
+  margin-bottom: 31px;
+  padding: 40px;
+  color: #86878b;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cards-list {
+  list-style-type: none;
+}
+
+.cards-list__item {
+  display: inline-block;
+
+  max-width: 370px;
+  margin-right: 26px;
+}
+
+.cards-list__item:last-child {
+  margin-right: 0;
+}
+
+.image {
+  display: block;
+  
+  margin: 0 auto;
+}
+
+.item__name {
+  margin-bottom: 8px;
+  padding: 33px 0;
+  color: #000;
+
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.item__description {
+  padding: 0 5px;
+  color: #000;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

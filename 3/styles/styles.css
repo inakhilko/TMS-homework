@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* tabs section*/
+
+.tabs {
+  padding-top: 99px;
+  margin-bottom: 50px;
+
+  background: #fff;
+}
+
+.tabs__list {
+  margin-bottom: -1px;
+}
+
+.tabs__list-item {
+  display: inline-block;
+}
+
+.tabs__list-item button {
+  padding: 8px;
+  width: 184px;
+  border: none;
+  color: #333;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.tabs__list-item--active {
+  width: 203px;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #c6cbcd;
+  border-bottom: none;
+
+  background-color: #fff;
+}
+
+.tabs__content {
+  border: 1px solid #c6cbcd;
+
+  vertical-align: top;
+  font-size: 0;
+}
+
+.tabs__content-description {
+  display: inline-block;
+  margin-right: 27.5px;
+  padding: 0 0 54px 100px;
+
+  vertical-align: top;
+}
+
+.tabs__content-title {
+  margin-bottom: 27px;
+  padding: 42px 0px;
+  color: #000;
+
+  font-family: Open Sans;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.tabs__content-text {
+  width: 570px;
+  margin-bottom: 27px;
+
+  color: #000;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tabs__content-btn {
+  width: 270px;
+  padding: 20px;
+  color: #fff;
+  border: none;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  background: #ec7979;
+}
+
+.tabs__content-image {
+  display: inline-block;
+  width: 470px;
+}
