@@ -70,12 +70,12 @@ html {
   width: 100%;
   background: #333;
   padding: 13px;
-  border: 2px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
   color: #fff;
 
   text-align: center;
   font-family: Open Sans;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -86,12 +86,12 @@ html {
   width: 100%;
   background: #333;
   padding: 29px 13px;
-  border: 2px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
 
   color: #fff;
   text-align: center;
   font-family: Raleway;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -101,12 +101,12 @@ html {
   width: 100%;
   background: #333;
   padding: 14px 13px;
-  border: 2px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
   color: rgba(255, 255, 255, 0.5);
 
   text-align: center;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -122,10 +122,10 @@ html {
   background: #fff;
   padding: 14px;
   color: #86878b;
-  
+
   text-align: center;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
