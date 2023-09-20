@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  background: #fff;
+}
+
+.heading {
+  padding: 54px 55px;
+  margin-bottom: 40px;
+  color: #000;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading::after {
+  display: block;
+  content: "";
+  position: relative;
+  top: 54px;
+  margin: 0 auto;
+  width: 170px;
+  height: 1px;
+  background: #ec7979;
+}
+
+.section__description {
+  margin-bottom: 71px;
+  color: #86878b;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* tabs section*/
+
+.tabs {
+  padding-top: 99px;
+  margin-bottom: 50px;
+}
+
+.tabs__list {
+  display: flex;
+  margin-bottom: -1px;
+}
+
+.tabs__list-item button {
+  padding: 8px;
+  width: 184px;
+  border: none;
+  color: #333;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tabs__list-item--active {
+  width: 203px;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #c6cbcd;
+  border-bottom: none;
+
+  background-color: #fff;
+}
+
+.tabs__content {
+  border: 1px solid #c6cbcd;
+
+  vertical-align: top;
+  font-size: 0;
+}
+
+.tabs__content-description {
+  display: inline-block;
+  margin-right: 27.5px;
+  padding: 0 0 54px 100px;
+
+  vertical-align: top;
+}
+
+.tabs__content-title {
+  margin-bottom: 27px;
+  padding: 42px 0px;
+  color: #000;
+
+  font-family: Open Sans;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.tabs__content-text {
+  width: 570px;
+  margin-bottom: 27px;
+
+  color: #000;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tabs__content-download {
+  display: block;
+  width: 270px;
+  padding: 20px;
+  color: #fff;
+  border: none;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  background: #ec7979;
+  transition: 0.3s;
+}
+
+.tabs__content-download:hover {
+  background: #ab4949;
+}
+
+.tabs__content-download:active {
+  background: #ec7979;
+  box-shadow: 0px 0px 10px 0px #ab4949 inset;
+}
+
+.tabs__content-image {
+  display: inline-block;
+  width: 470px;
+}
+
+/* aewsome section*/
+
+.awesome-section {
+  margin-bottom: 58px;
+}
+
+.cards-list {
+  display: flex;
+}
+
+.cards-list__item {
+  width: calc((100% - 60px) / 3);
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 78px 139px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 1px solid #ec7979;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.item__name {
+  margin-bottom: 8px;
+  padding: 33px 0;
+  color: #000;
+
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.item__description {
+  padding: 0 5px;
+  color: #000;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* prices */
+
+.prices-section {
+  background: #f5f5f5;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.prices {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section__description--for-prices {
+  margin-bottom: 59px;
+  padding: 0 40px;
+}
+
+.plan {
+  position: relative;
+  width: calc((100% - 60px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: .3s;
+}
+
+.plan__title {
+  width: 100%;
+  background: #333;
+  padding: 13px;
+  border: 1px solid #f5f5f5;
+  color: #fff;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.plan__price {
+  width: 100%;
+  background: #333;
+  padding: 29px 13px;
+  border: 1px solid #f5f5f5;
+
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.plan__short-description {
+  width: 100%;
+  background: #333;
+  padding: 14px 13px;
+  border: 1px solid #f5f5f5;
+  color: rgba(255, 255, 255, 0.5);
+
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.plan__description {
+  width: 100%;
+}
+
+.plan__description-item {
+  width: 100%;
+  border: 1px solid #f5f5f5;
+  background: #fff;
+  padding: 14px;
+  color: #86878b;
+
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.plan:hover {
+  top: -18px;
+  filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+  border: 1px solid #f5f5f5;
+}
+
+/* customers */
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.opinion {
+  width: calc((100% - 60px) / 3);
+}
+
+.opinion__text {
+  position: relative;
+  padding: 38px 24px 37px;
+  margin-bottom: 66px;
+  border-radius: 10px;
+  background: #e2e2e2;
+
+  color: #86878b;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.opinion__text::after {
+  display: block;
+  content: "";
+  position: relative;
+  top: 56px;
+  left: 32px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #e2e2e2;
+}
+
+.opinion__author {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-bottom: 15px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.position {
+  color: #000;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
