@@ -57,6 +57,144 @@ html {
   font-weight: 400;
 }
 
+/* header */
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+.header__container {
+  width: 100%;
+  padding: 22px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 87px;
+}
+
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation__list {
+  display: flex;
+  max-width: 570px;
+  width: 100%;
+}
+
+.navigation__item {
+  color: #fff;
+  flex-grow: 1;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* banner */
+.banner {
+  position: relative;
+  padding: 306px 15px 185px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/banner-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.banner__logo {
+  width: 170px;
+  margin-bottom: 73px;
+}
+
+.main-heading {
+  max-width: 670px;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 97px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main-heading.heading::after {
+  margin: 0;
+  top: 55px;
+  background: #fff;
+}
+
+.banner__description {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 42px;
+  max-width: 270px;
+}
+
+.download {
+  display: block;
+  max-width: 270px;
+  padding: 15px 90px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* social media */
+.social-media-section {
+  background: #f8efef;
+  padding: 18px 0;
+}
+
+.social-media-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-media-section__content {
+  max-width: 470px;
+}
+
+.social-media-section__title {
+  margin-bottom: 32px;
+  color: #333;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.social-media-section__description {
+  color: #86878b;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /* tabs section*/
 
 .tabs {
@@ -240,7 +378,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .plan__title {
@@ -385,6 +523,102 @@ html {
   color: #000;
   font-family: Raleway;
   font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* style */
+.style-section {
+  padding: 50px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/style-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.style-section__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading--white {
+  color: #fff;
+}
+
+.heading--white.heading::after {
+  background: #fff;
+}
+
+.section__description--white {
+  color: #fff;
+}
+
+.style-section__download {
+  max-width: 370px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 35px 0 27px;
+  background-color: #000;
+}
+
+.footer__block {
+  margin-bottom: 28px;
+  display: flex;
+  gap: 33px;
+}
+
+.footer__link {
+  transition: 0.3s;
+}
+
+.footer__link:hover svg path {
+  fill: #ec7979;
+}
+
+.facebook:hover {
+  transform: scale(1.2);
+}
+
+.twitter:hover {
+  transform: skew(15deg, 15deg);
+}
+
+.linkedin:hover {
+  transform: translate(15px, 15px);
+}
+
+.pinterest:hover {
+  transform: matrix(1.2, 0, 0, 1.2, 15, 15);
+}
+
+.instagram:hover {
+  transform: rotate(180deg);
+}
+
+.github:hover {
+  transform: translateX(15px);
+}
+
+.rss:hover {
+  transform: rotate(-180deg);
+}
+
+.copyright {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
