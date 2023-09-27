@@ -752,6 +752,7 @@ html {
 .contact {
   padding-bottom: 50px;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
