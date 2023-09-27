@@ -12,25 +12,71 @@
         <img src="images/logo.png" alt="logo" class="header__logo" />
         <nav class="navigation">
           <ul class="navigation__list">
-            <li class="navigation__item">Features</li>
-            <li class="navigation__item">About</li>
-            <li class="navigation__item">Pricing</li>
-            <li class="navigation__item">Reviews</li>
-            <li class="navigation__item">Contact</li>
+            <li class="navigation__item">
+              <a href="#features" class="navigation__link"> Features </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about" class="navigation__link"> About </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#pricing" class="navigation__link"> Pricing </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#reviews" class="navigation__link"> Reviews </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contact" class="navigation__link"> Contact </a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <section class="section banner">
-      <div class="container">
-        <img src="images/logo.png" alt="logo" class="banner__logo" />
-        <h1 class="heading main-heading heading--white">
-          MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-        </h1>
-        <p class="section__description banner__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-        <a href="" class="download">Download</a>
+      <div class="container banner__container">
+        <div class="banner__block">
+          <img src="images/logo.png" alt="logo" class="banner__logo" />
+          <h1 class="heading main-heading heading--white">
+            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+          </h1>
+          <p class="section__description banner__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <a href="" class="download">Download</a>
+        </div>
+        <form action="post" class="trial-form">
+          <h3 class="trial-form__title">
+            Try Your <span class="form__title--colored"> FREE </span> Trial
+            Today
+          </h3>
+          <div class="trial-form__block">
+            <input
+              class="input"
+              type="text"
+              name="name"
+              id=""
+              placeholder="Name"
+              required
+            />
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id=""
+              placeholder="E-mail"
+              required
+            />
+            <input
+              class="input"
+              type="password"
+              name="password"
+              id=""
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <button class="form-button">Get Started</button>
+        </form>
       </div>
     </section>
     <section class="section social-media-section">
@@ -42,51 +88,51 @@
             euismod bibendum laoreet.
           </p>
         </div>
-        <a href="" class="social-media-section__link"
+        <a href="https://www.facebook.com/" class="social-media-section__link"
           ><img
             src="images/facebook_icon.svg"
-            alt=""
+            alt="facebook icon"
             class="social-media-section__icon"
         /></a>
-        <a href="" class="social-media-section__link"
+        <a href="https://twitter.com/" class="social-media-section__link"
           ><img
             src="images/twitter_icon.svg"
-            alt=""
+            alt="twitter icon"
             class="social-media-section__icon"
         /></a>
-        <a href="" class="social-media-section__link"
+        <a href="https://www.linkedin.com/" class="social-media-section__link"
           ><img
             src="images/linkedin_icon.svg"
-            alt=""
+            alt="linkedin icon"
             class="social-media-section__icon"
         /></a>
-        <a href="" class="social-media-section__link"
+        <a href="https://ru.pinterest.com/" class="social-media-section__link"
           ><img
             src="images/pinterest_icon.svg"
-            alt=""
+            alt="pinterest icon"
             class="social-media-section__icon"
         /></a>
-        <a href="" class="social-media-section__link"
+        <a href="https://www.instagram.com/" class="social-media-section__link"
           ><img
             src="images/instagram_icon.svg"
-            alt=""
+            alt="instagram icon"
             class="social-media-section__icon"
         /></a>
-        <a href="" class="social-media-section__link"
+        <a href="https://github.com/" class="social-media-section__link"
           ><img
             src="images/github_icon.svg"
-            alt=""
+            alt="github icon"
             class="social-media-section__icon"
         /></a>
-        <a href="" class="social-media-section__link"
+        <a href="https://rss.com/" class="social-media-section__link"
           ><img
             src="images/rss_icon.svg"
-            alt=""
+            alt="rss icon"
             class="social-media-section__icon"
         /></a>
       </div>
     </section>
-    <section class="tabs section">
+    <section class="tabs section" id="features">
       <div class="container">
         <ul class="tabs__list">
           <li class="tabs__list-item tabs__list-item--active">
@@ -122,7 +168,7 @@
         </div>
       </div>
     </section>
-    <section class="awesome-section">
+    <section class="awesome-section" id="about">
       <div class="container">
         <h2 class="heading">WHY THIS IS&nbsp;AWESOME</h2>
 
@@ -169,7 +215,7 @@
         </ul>
       </div>
     </section>
-    <section class="prices-section section">
+    <section class="prices-section section" id="pricing">
       <div class="container">
         <h2 class="heading">pricing options</h2>
         <p class="section__description section__description--for-prices">
@@ -218,7 +264,7 @@
         </div>
       </div>
     </section>
-    <section class="customers-section section">
+    <section class="customers-section section" id="reviews">
       <div class="container">
         <h2 class="heading">what our customers are saying</h2>
         <p class="section__description section__description--for-prices">
@@ -289,7 +335,52 @@
           Use the sections you need, remove the ones you don't. Create gorgeous
           prototypes faster than ever!
         </p>
-        <a href="https://www.africau.edu/images/default/sample.pdf" download class="download style-section__download">Download</a>
+        <a
+          href="https://www.africau.edu/images/default/sample.pdf"
+          download
+          class="download style-section__download"
+          >Download</a
+        >
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="heading">contact us</h2>
+
+        <p class="section__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+
+        <form action="post" class="contact-form">
+          <div class="contact-form__content">
+            <div class="contact-form__block">
+              <label for="name" class="label">Name</label>
+              <input class="contact-form__input input" type="text" name="name" id="name" required />
+              <label for="email" class="label">E-mail</label>
+              <input
+                class="contact-form__input input"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+              <label for="password" class="label">Password</label>
+              <input
+                class="contact-form__input input"
+                type="password"
+                name="password"
+                id="password"
+                required
+              />
+            </div>
+            <div class="textarea-block">
+              <label for="message"></label>
+              <textarea class="contact-form__textarea" name="" id="message"></textarea>
+            </div>
+          </div>
+
+          <button class="form-button contact-form__button">Send Message</button>
+        </form>
       </div>
     </section>
     <footer class="footer">
