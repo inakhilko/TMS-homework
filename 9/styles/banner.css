@@ -1,0 +1,267 @@
+.banner {
+  position: relative;
+  padding: 306px 0 185px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/banner-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.banner__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.banner__block {
+  padding-top: 29px;
+}
+
+.banner__logo {
+  width: 170px;
+  margin-bottom: 73px;
+}
+
+.main-heading {
+  max-width: 670px;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 97px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main-heading.heading::after {
+  margin: 0;
+  top: 55px;
+  background: #fff;
+}
+
+.banner__description {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 42px;
+  max-width: 270px;
+}
+
+.download {
+  display: block;
+  max-width: 270px;
+  padding: 15px 90px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.download:hover {
+  border-color: #ec7979;
+  color: #ec7979;
+}
+
+.download:active {
+  border-color: #ab4949;
+  color: #fff;
+  background: #ab4949;
+}
+
+.trial-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 470px;
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.trial-form__title {
+  margin-bottom: 29px;
+  padding: 29px 0;
+  color: #333;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.trial-form__title--colored {
+  color: #ec7979;
+}
+
+.trial-form__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 16px 0;
+  margin-bottom: 17px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input::placeholder {
+  color: #bdbdbd;
+  font-family: Open Sans;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.trial-form .input:last-of-type {
+  margin-bottom: 75px;
+}
+
+.form-button {
+  padding: 20px 0;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  background: #ec7979;
+
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  background: #ab4949;
+}
+
+.form-button:active {
+  background: #ec7979;
+  box-shadow: 0px 0px 10px 0px #ab4949 inset;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    padding: 137px 0 106px 100px;
+  }
+
+  .banner__logo {
+    max-width: 115px;
+    margin-bottom: 54px;
+  }
+
+  .banner__block {
+    padding-top: 23px;
+  }
+
+  .main-heading {
+    max-width: 455px;
+    margin-bottom: 73px;
+    font-size: 36px;
+  }
+
+  .main-heading.heading::after {
+    top: 42px;
+    background: #fff;
+  }
+  
+  .banner__description {
+    font-size: 14px;
+    margin-bottom: 31px;
+    max-width: 183px;
+  }
+  
+  .download {
+    max-width: 183px;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .trial-form {
+    max-width: 398px;
+  }
+  
+  .trial-form__title {
+    margin-bottom: 39px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    padding: 140px 0 50px;
+  }
+
+  .banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .banner__logo {
+    display: none;
+  }
+
+  .banner__block {
+    padding-top: 0;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-heading {
+    max-width: 100%;
+    margin-bottom: 86px;
+    text-align: center;
+  }
+
+  .main-heading.heading::after {
+    top: 44px;
+    margin: 0 auto;
+  }
+  
+  .banner__description {
+    margin-bottom: 42px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .download {
+    width: 100%;
+    max-width: 288px;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .trial-form {
+    max-width: 100%;
+  }
+  
+  .trial-form__block {
+    padding: 0 20px;
+  }
+
+  .trial-form__title {
+    padding: 35px 0;
+    margin-bottom: 0;
+    font-size: .875rem;
+  }
+
+}

@@ -1,0 +1,142 @@
+.tabs {
+  padding: 99px 0 50px;
+}
+
+.tabs__list {
+  display: flex;
+  margin-bottom: -1px;
+}
+
+.tabs__list-item button {
+  padding: 8px;
+  width: 184px;
+  border: none;
+  color: #333;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tabs__list-item--active {
+  max-width: 203px;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #c6cbcd;
+  border-bottom: none;
+
+  background-color: #fff;
+}
+
+.tabs__content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  border: 1px solid #c6cbcd;
+  font-size: 0;
+}
+
+.tabs__content-description {
+  max-width: 570px;
+
+  padding: 0 0 54px;
+}
+
+.tabs__content-title {
+  margin-bottom: 27px;
+  padding: 42px 0px;
+  color: #000;
+
+  font-family: Open Sans;
+  font-size: 1.875rem;
+
+  font-weight: 700;
+}
+
+.tabs__content-text {
+  margin-bottom: 27px;
+
+  color: #000;
+  font-family: Raleway;
+  font-size: 1.125rem;
+
+  font-weight: 400;
+}
+
+.tabs__content-download {
+  display: block;
+  max-width: 270px;
+  padding: 20px;
+  color: #fff;
+  border: none;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.125rem;
+
+  font-weight: 600;
+  background: #ec7979;
+  transition: 0.3s;
+}
+
+.tabs__content-download:hover {
+  background: #ab4949;
+}
+
+.tabs__content-download:active {
+  background: #ec7979;
+  box-shadow: 0px 0px 10px 0px #ab4949 inset;
+}
+
+.tabs__content-image {
+  max-width: 470px;
+}
+
+@media screen and (max-width: 1024px) {
+  .tabs {
+    padding: 50px 0;
+  }
+
+  .tabs__list-item button {
+    padding: 10px;
+    width: 156px;
+  }
+
+  .tabs__list-item--active {
+    max-width: 172px;
+  }
+
+  .tabs__content {
+    padding-left: 85px;
+  }
+
+  .tabs__content-description {
+    max-width: 483px;
+
+    padding-bottom: 50px;
+  }
+
+  .tabs__content-title {
+    margin-bottom: 38px;
+    padding: 28px 0px;
+    font-size: 24px;
+  }
+
+  .tabs__content-text {
+    margin-bottom: 38px;
+    font-size: 0.875rem;
+  }
+
+  .tabs__content-download {
+    max-width: 232px;
+  }
+
+  .tabs__content-image {
+    max-width: 398px;
+  }
+}

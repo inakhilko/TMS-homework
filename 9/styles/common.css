@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap");
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  background: #fff;
+}
+
+.heading {
+  padding: 54px 55px;
+  margin-bottom: 40px;
+  color: #000;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading::after {
+  display: block;
+  content: "";
+  position: relative;
+  top: 54px;
+  margin: 0 auto;
+  width: 170px;
+  height: 1px;
+  background: #ec7979;
+}
+
+.section__description {
+  margin-bottom: 71px;
+  color: #86878b;
+
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    padding: 46px;
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+  }
+
+  .heading::after {
+    top: 46px;
+    width: 143px;
+  }
+
+  .section__description {
+    font-size: 1.125rem;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    padding: 50px 0;
+    margin-bottom: 25px;
+    font-size: 1.125rem;
+  }
+
+  .heading::after {
+    top: 50px;
+    width: 134px;
+  }
+
+  .section__description {
+    font-size: 0.8125rem;
+    margin-bottom: 24px;
+  }
+}

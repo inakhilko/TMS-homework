@@ -1,0 +1,38 @@
+.style-section {
+    padding: 50px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/style-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  
+  .style-section__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .heading--white {
+    color: #fff;
+  }
+  
+  .heading--white.heading::after {
+    background: #fff;
+  }
+  
+  .section__description--white {
+    color: #fff;
+  }
+  
+  .style-section__download {
+    max-width: 370px;
+  }
+
+  
+@media screen and (max-width: 1024px) {
+  
+  .style-section__download {
+    width: 318px;
+  }
+}
