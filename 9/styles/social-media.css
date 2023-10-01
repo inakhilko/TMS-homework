@@ -55,10 +55,7 @@
   .social-media-section__description {
     font-size: 14px;
   }
-
- 
 }
-
 
 @media screen and (max-width: 768px) {
   .social-media-section {
@@ -84,7 +81,11 @@
     text-align: center;
   }
 
+  .social-media-section__icons {
+    width: 100%;
+  }
+
   .social-media-section__icon {
-    max-width:   26px;
+    max-width: 26px;
   }
 }

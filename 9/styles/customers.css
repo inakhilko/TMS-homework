@@ -113,3 +113,19 @@
     font-size: 0.875rem;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .customers-section {
+    padding: 0 0 31px;
+  }
+
+  .opinion:nth-child(2),
+  .opinion:nth-child(3) {
+    display: none;
+  }
+
+  .opinion {
+    width: 100%;
+  }
+}

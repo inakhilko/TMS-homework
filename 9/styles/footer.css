@@ -73,3 +73,18 @@
     font-size: 0.875rem;
   }
 }
+
+
+@media screen and (max-width: 768px)  {
+  .footer__link  svg
+  {
+    max-width: 26px;
+  }
+  .footer__block {
+    margin-bottom: 27px;
+  }
+
+  .footer {
+    padding-bottom: 29px;
+  }
+}

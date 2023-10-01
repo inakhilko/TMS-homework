@@ -129,3 +129,42 @@
     padding: 12px;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .prices-section {
+    padding-bottom: 26px;
+  }
+
+  .section__description--for-prices {
+    margin-bottom: 24px;
+  }
+
+  .prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plan {
+    width: 100%;
+    margin-bottom: 27px;
+  }
+
+  .plan__title {
+    padding: 10px;
+  }
+
+  .plan__price {
+    padding: 23px 13px;
+  }
+
+  .plan__short-description {
+    padding: 12px;
+  }
+
+  .plan__description-item {
+    padding: 12px;
+  }
+}
